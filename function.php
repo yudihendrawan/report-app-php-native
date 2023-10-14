@@ -1,6 +1,7 @@
 <?php
 require 'vendor/autoload.php'; // Load Composer autoloader
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+
 $dotenv->load();
 
 // Connect to PlanetScale using credentials stored in environment variables
